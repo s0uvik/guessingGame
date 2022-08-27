@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <script src="object.js"></script> -->
+    <!-- <script src="loop.js"></script> -->
+    <center>
+      <h1>JavaScript Guessing Game</h1>
+
+      <h4>Guess number between 1 to 20</h4>
+      <h1 style="">
+        let's guess it => <span class="secretNumber">&nbsp; ? &nbsp;</span>
+      </h1>
+      <input type="number" class="guessNumber" value="" placeholder="?" />
+      <div>
+        <button class="btn" id="again">Again</button>
+        <button class="btn" id="click">check</button>
+      </div>
+      <h2 class="message">Start guessing it</h2>
+      <h2>Your score: <span class="yourScore"></span>/20</h2>
+      <!-- <h2>Highest score: <span  class="highestScore"></span></h2> -->
+    </center>
+  </body>
+  <script src="script.js"></script>
+</html>
