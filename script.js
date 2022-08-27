@@ -59,5 +59,9 @@ document.querySelector("#again").addEventListener("click", function () {
   message.textContent = "Start guessing";
   document.querySelector("input").value = 0;
   document.querySelector(".yourScore").textContent = 20;
-  document.querySelector(".secretNumber").textContent =  "?" ;
+  document.querySelector(".secretNumber").textContent = "?";
 });
+
+const newFeature = function () {
+  console.log("new feature");
+};
