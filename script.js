@@ -17,8 +17,8 @@ document.querySelector("#click").addEventListener("click", function () {
       message.textContent = "you lost the game";
       yourScore.textContent = 0;
     }
-  } else if (guessNumber > 20) {
-    message.textContent = "laawre... achhe se parke input kor, ";
+  } else if (guessNumber > 20 || guessNumber < 0) {
+    message.textContent = "Input must be between 0 to 20, ";
   } else if (guessNumber === number) {
     console.log();
     if (yourScore.textContent > 1) {
